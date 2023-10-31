@@ -6,12 +6,19 @@ li {
     list-style-type: none;
 }
 
+
+
 #header-container {
     background-color: #1F2937;
     height: 90px;
     color: white;
     display: flex;
+    flex-direction: row;
     align-items: center;
+}
+
+#header-title, #header-link {
+    display: inline-block;
 }
 
 #header-title {
@@ -21,3 +28,7 @@ li {
     flex: 3;
 }
 
+#header-link {
+    flex: 1;
+    margin-left: auto;
+}
