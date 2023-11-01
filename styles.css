@@ -40,6 +40,7 @@
     align-items: center;
     color: white;
     height: 400px;
+    gap: 100px
 }
 
 #hero-main-text {
