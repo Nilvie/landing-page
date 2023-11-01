@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto';
 }
 
 #header-container {
@@ -29,4 +30,22 @@
     display: flex;
     gap: 20px;
     justify-content: flex-end;
+}
+
+/* Hero Div */
+#hero-div {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 400px;
+}
+
+#hero-main-text {
+    font-size: 48px;;
+}
+
+#hero-secondary-text {
+    font-size: 18px;
 }
