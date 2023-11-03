@@ -55,6 +55,11 @@
 /* Second Div */
 #second-div {
     margin: 100px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #character-images-container {
@@ -94,7 +99,7 @@
 
 /* Call to Action */
 #third-div {
-    height: 500px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,4 +134,16 @@
     color: white;
     border-radius: 20px;
     font-weight: bold;
+}
+
+/* Footer */
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: #7d0000;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
 }
