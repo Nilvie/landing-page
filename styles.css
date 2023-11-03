@@ -75,7 +75,7 @@
 /* Quote Div */
 #quote-container {
     background-color: #e5e7eb;
-    height: 250px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: right;
@@ -85,9 +85,48 @@
 
 #quote-text {
     font-size: 36px;
-    font-weight: normal;
+    font-weight: lighter;
 }
 
 #quote-credit {
     font-size: 30px;
+}
+
+/* Call to Action */
+#third-div {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#call-to-action {
+    background-color: #7d0000;
+    height: 270px;
+    width: 1000px;
+    border-radius: 20px;
+    color:white;
+    padding: 90px 120px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 90px;
+}
+
+#call-to-action-title {
+    
+}
+
+#call-to-action-description {
+    font-size: 20px;
+}
+
+#sign-up-btn {
+    width: 170px;
+    height: 70px;
+    font-size: 20px;
+    border: white solid;
+    background-color: #7d0000;;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
 }
